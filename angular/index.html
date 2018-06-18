@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-cloak>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title ng-bind="Page.getTitle()">Dashboard</title>
+
+    <base href="/">
+
+    <link rel="stylesheet" type="text/css" href="/bower_components/AdminLTE/dist/css/AdminLTE.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/AdminLTE/dist/css/skins/skin-black.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/components-font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/bower_components/angular-ui-select/dist/select.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/vendor.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+<body ng-class="Page.getClasses()" ui-view>
+
+</body>
+    <script type="text/javascript" src="/assets/js/vendor.js"></script>
+
+    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ru.min.js"></script>
+    <script type="text/javascript" src="/bower_components/AdminLTE/dist/js/app.js"></script>
+    <script type="text/javascript" src="/bower_components/moment/moment.js"></script>
+    <script type="text/javascript" src="/bower_components/moment/locale/ru.js"></script>
+    <script type="text/javascript" src="/assets/js/zoom.js"></script>
+
+    <!-- inject:js -->
+    <script src="/app/app.js"></script>
+    <script src="/app/layouts/Layouts.js"></script>
+    <script src="/app/login/Login.controller.js"></script>
+    <script src="/app/login/Login.js"></script>
+    <script src="/app/administrator/projects/ProjectList.controller.js"></script>
+    <script src="/app/administrator/projects/ProjectView.controller.js"></script>
+    <script src="/app/administrator/projects/Projects.js"></script>
+    <script src="/app/administrator/statistics/Statistics.controller.js"></script>
+    <script src="/app/administrator/statistics/Statistics.js"></script>
+    <script src="/app/administrator/statistics/Workdiary.controller.js"></script>
+    <script src="/app/administrator/users/UserList.controller.js"></script>
+    <script src="/app/administrator/users/UserProjects.controller.js"></script>
+    <script src="/app/administrator/users/Users.js"></script>
+    <script src="/app/components/directives/confirmPassword.directive.js"></script>
+    <script src="/app/components/directives/onErrorImage.directive.js"></script>
+    <script src="/app/components/directives/refreshTable.directive.js"></script>
+    <script src="/app/components/filters/tohours.filter.js"></script>
+    <script src="/app/components/filters/unix-tohours.filter.js"></script>
+    <script src="/app/components/resources/project.resouces.js"></script>
+    <script src="/app/components/resources/statistics.resouces.js"></script>
+    <script src="/app/components/resources/user.resouces.js"></script>
+    <script src="/app/components/services/auth.service.js"></script>
+    <script src="/app/components/services/page.service.js"></script>
+    <script src="/app/developer/counter/Counter.js"></script>
+    <script src="/app/developer/counter/CounterDasboard.controller.js"></script>
+    <script src="/app/developer/projects/ProjectList.controller.js"></script>
+    <script src="/app/developer/projects/Projects.js"></script>
+    <script src="/app/developer/statistics/Workdiary.controller.js"></script>
+    <script src="/app/developer/statistics/Workdiary.js"></script>
+    <script src="/app/manager/projects/ProjectList.controller.js"></script>
+    <script src="/app/manager/projects/ProjectView.controller.js"></script>
+    <script src="/app/manager/projects/Projects.js"></script>
+    <script src="/app/manager/statistics/Statistics.controller.js"></script>
+    <script src="/app/manager/statistics/Statistics.js"></script>
+    <script src="/app/manager/statistics/Workdiary.controller.js"></script>
+    <script src="/app/manager/users/UserList.controller.js"></script>
+    <script src="/app/manager/users/UserProjects.controller.js"></script>
+    <script src="/app/manager/users/Users.js"></script>
+    <!-- endinject -->
+</html>
